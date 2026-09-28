@@ -17,10 +17,28 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+a {
+    color: gold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
 }
